@@ -40,7 +40,7 @@ class CTAMTestRedfishSoftwareInventoryCollection(TestCase):
     test_name: str = "CTAM Test Redfish Software Inventory Collection"
     test_id: str = "H9"
     score_weight: int = 10
-    tags: List[str] = ["HCheck"]
+    tags: List[str] = []
 
     # exclude_tags: List[str] = ["NotCheck"]
 

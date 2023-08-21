@@ -26,10 +26,10 @@ class VerifyRedfishSoftwareInventoryCollection(TestCase):
     :param TestCase: super class for all test cases
     :type TestCase:
     """
-
-    test_id: List[str] = ["H10"]
+    test_name: str = "CTAM Verify Redfish Software Inventory Collection"
+    test_id:str = "H10"
     score_weight: int = 10
-    tags: List[str] = ["HCheck"]
+    tags: List[str] = []
     # exclude_tags: List[str] = ["NotCheck"]
 
     def __init__(self, group: BasicHealthCheckTestGroup):
